@@ -5,8 +5,8 @@ const MongoClient = require('mongodb').MongoClient
 
 var db
 
-// const url = 'mongodb+srv://Dancyy:Kiwi2919@cluster0.cntrt.mongodb.net/?retryWrites=true&w=majority'
-const url = 'Your MongoDB url goes here'
+const url = 'mongodb+srv://Dancyy:Kiwi2919@cluster0.cntrt.mongodb.net/?retryWrites=true&w=majority'
+// const url = 'Your MongoDB url goes here'
 const dbName = 'palindrome'
 
 app.set('view engine', 'ejs')
